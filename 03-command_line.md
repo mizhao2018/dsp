@@ -70,7 +70,5 @@ Step 2:
   * type __-n1__ to specify that the command needs to work for every item that passes through the pipe.
   * __-i__ indicates that we will use a replacement string in the next command 
   * __mv__ is the command 
-
-
  
-[Ref]: (https://ryanstutorials.neet/linuxtutorial/bonus.php)
+[Ref] (https://ryanstutorials.neet/linuxtutorial/bonus.php)
