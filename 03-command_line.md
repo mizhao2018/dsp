@@ -59,7 +59,18 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+'xargs' can run a particular command for every item in a list, think of bulk editing. 
+Example: a list of .jpg files but some with caps and others not. Trying to put all of them to lower cases.
+Step 1: List the items of interest _ls_
+Step 2:
+  * First, use command __basename__ to get the name with the suffix removed
+  * __-s__ to specify what the suffix is that should be removed.
+  * __-a__ if there are multiple of these files.
+  * use __xargs__ 
+  * type __-n1__ to specify that the command needs to work for every item that passes through the pipe.
+  * __-i__ indicates that we will use a replacement string in the next command 
+  * __mv__ is the command 
+
 
  
 
