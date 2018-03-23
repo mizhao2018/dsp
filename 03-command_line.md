@@ -34,8 +34,16 @@ What do the following commands do:
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+---
+Command | Action
+-----------------
+ls | list the contents of a particular directory
+ls -a | list the contents including hidden files
+ls -l | long listing 
+ls -lh | long listing with human readable file sizes
+ls -lah | including hidden files with long listing in human readable file sizes
+ls -t | list content sorted
+ls -Glp | long listing sorted
 
 ---
 
