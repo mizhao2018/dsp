@@ -36,7 +36,7 @@ What do the following commands do:
 `ls -Glp`  
 
 | Command | Action                                                                |
-|---------|:---------------------------------------------------------------------:|
+|---------|-----------------------------------------------------------------------|
 | ls      | list the contents of a particular directory                           |
 | ls -a   | list the contents including hidden files                              |
 | ls -l   | long listing                                                          |
