@@ -42,8 +42,8 @@ What do the following commands do:
 | ls -l   | long listing                                                          |
 | ls -lh  | long listing with human readable file sizes                           |
 | ls -lah | including hidden files with long listing in human readable file sizes |
-| ls -t   | list content sorted                                                   |
-| ls -Glp | long listing sorted                                                   |
+| ls -t   | list newest file first                                                |
+| ls -Glp | long listing, excludes owner name, directories with /                 |
 
 ---
 
@@ -51,7 +51,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+| Command | Action                                       |
+|---------|----------------------------------------------|
+| -c      | Displays files by file timestamp             |
+| -r      | Displays files in reverse order              |
+| -1      | Displays each entry on a line (separate line)|
+| -x      | Displays files as rows across the screen     |
+| -d      | Displays only directories                    |
 
 ---
 
