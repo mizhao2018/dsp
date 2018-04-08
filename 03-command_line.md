@@ -27,7 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * touch    #create a file
 * rm       #delete a file
 * mv       #rename a file
-*ls -ld .?*   #list only hidden files
+* ls -ld .?*   #list only hidden files
 * cp       #copy a file from one directory to another
 
 ---
